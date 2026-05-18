@@ -1,0 +1,89 @@
+body {
+  font-family: Arial;
+  background: #F8FAFC;
+  margin: 0;
+}
+
+/* Center login */
+.center-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1D4ED8;
+}
+
+.navbar {
+  background: #2563EB;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.pending { color: orange; }
+.confirmed { color: green; }
+.cancelled { color: red; }
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+.role-select {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.role-select input {
+  margin-right: 5px;
+}
